@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fonting{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+.head{
+width: 100vw;
+height: 145px;
+display: flex;
+flex-direction: column;
+top: 6;
+gap: 20px;
+z-index: 1000;
+}
+.head-box-1{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.head-box-1-search-box{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 9px;
+}
+.search-box-button{
+    background-color: #fff;
+    border: none;
+    font-weight: 500;
+}
+.search-bar{
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.head-box1-support{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.head-box-1-icons{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+.hovering:hover{
+    cursor: pointer;
+}
+.head-box-1-icon{
+    margin: 5px;
+    padding: 9px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #dfdede;
+    display: flex;
+    flex-direction: row;
+}
+.head-box-1-icon:hover{
+    cursor: pointer;
+}
+.icon-number{
+    position: relative;
+    font-size: smaller;
+    background-color: gold;
+    padding: 5px;
+    width: 30px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+
+.head-box-2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.head-box-2-mini{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    text-decoration: none;
+}
+.department-head-box-2{
+    height: 10px;
+    border: none;
+    background-color: #fff;
+}
+.nav-button{
+    list-style-type: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    border-radius: 10px;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+}
+/* banner starts here */
+.banner{
+    display: grid;
+    grid-template-rows: 300px 300px ;
+    grid-template-columns: 600px  450px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #EEF5E4; */
+}
+.banner-box1{
+    background-color: #EEF5E4;
+    grid-column: span 1;
+    width:100%;
+    height: 100%;
+    background-image: url(https://s3-alpha-sig.figma.com/img/2a84/4579/f9d6299aa49af90415b3d69a01aa749e?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KIZ~AJrItUJtLOnW2AjtG9LzXPXMxGHKtLn8bOz2ys3oelLc-qKnXU1533fPGTgC40vY8c-7mhanD-zCMzal0LLO56WfnBE0H2tBllR-fiF70-g8xXuasqPjMlGCciQDAHgADik3rHuTi1i-KUOO5fGHvPKtyY9~xZ69FbuV-veZGlUkDp3yuQjqXxNrOZrWw0bf9DHN-22T5mSnF1O441kpXBjsdxLXxoJxCKt36zwmOh1cy-rhHpVFHDYxqGjrWl~b6adqzXAnwBZ04j7d6VmYicQDXHrfosRxp4Y9jOlS-mzIAgzq3FAaM8-rf5pKyWLQ8L4VtKHivKjcKHcoDQ__);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 10px;
+}
+.banner-box1-mini{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    flex-direction: column ;
+}
+.banner-box1-button{
+    width: 200px;
+    height: fit-content;
+    line-height: 100px;
+
+}
+.banner-box2{
+    background-color: #EEF5E4;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background-image: url(https://s3-alpha-sig.figma.com/img/43b3/747c/4909fe51dd8d56b9e5c365dba2e04c1c?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YTS6AWLbeVJvJDjg3FW1pdiiB5Xac~n~47Hp9dTGsPAhcUEU54afp2STHXXkQsDOrBNAEUBRBdgSyVOK3iBAmY~A-0mVlNn8A1QcGs3D1yRwA5uCIXwJYg8qec3OlahcEe754puO6RxP1fB385zOeIzv9tnFgsuKf4UkeY8YU1yp29I~bErm1pNFGU6o5Ls4XdxBFNH2iL87df21zNXP-rJNQM30EXjQ~2U5erxU9lKs28xSobuTU~0JMvJgHb3GGp8KRWoTGZVMInRx~V7wjm2V68EYFcpw1xdwIBl9gcHckrB~PySTDGBq9H5ugKu2tV~YBVpJ8D91~LPibka9NQ__);
+    background-repeat: no-repeat;
+}
+.banner-box2-button{
+    width: 200px;
+    height: fit-content;
+    line-height: 100px;
+    text-align: end;
+}
+.banner-box3{
+    width: 100%;
+    height: 100%;
+    background-color:#EEF5E4;
+    border-radius: 10px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/3309/3a94/5e4f13d33b0716ab4f8e2bbd3a0972a1?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OhqUOsODPetU3XEl8Q9nYrJUwh1~Q2A6yeKWU1ZHB3ABqik8bDIQ4zEVvlQ~Hr~sfK~Gl1RY9OYEbuthdYdFwEMPsEuRiBSWB22CSh1j~mz-MbZu-Aro5txSzjWDxxjUNF8bJHZSWfFhSbgBKWAoTxw45kS8mzt68FObvW7cwvpi9mJJug~YdT99gc7RtMarzNni1z0KbNYobksP~dkwu2M70SWc1aV3HM~7-NkzGxGx4Vn1ZE4bixCjnzAGIN7r27RBeQCGFdgns50o~UvTpfUMWs-r-yiEq9O9XUNRI12OJRWUG4~9fdkXn7xcFsLRSSVoeGExJJ6bw-Gp0rIo3g__);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    display: flex;
+    flex-direction: column;
+}
+.banner-box3-mini{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+}
+/* CATAGORY STARTS HERE */
+.catagory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    height: fit-content;
+    padding-bottom: 0;
+}
+.cat-written{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: row;
+}
+.cat-cart-container{
+    display: flex;
+    flex-direction: row;
+    gap: 80px ;
+    padding: 50px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 27.24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    height: fit-content;
+}
+.cat-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+/* newely arrived */
+.new{
+    padding: 100px;
+    margin: left 50px; ;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: fit-content;
+    padding-bottom: 0px;
+}
+
+.new-cart-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.new-cart{
+    width: 377px;
+height: 178px;
+/* top: 1840px;
+left: 154px; */
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+flex-direction: row;
+
+}
+.trending-button{
+    border-bottom: orange 2px solid;
+}
+.trending-cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+}
+.trending{
+    padding-top: 0;
+    padding: 100px;
+}
+.trending-cart{
+width: 302px;
+height: 404px;
+top: 2776px;
+left: 154px;
+gap: 0px;
+border-radius: 16px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+.trending-cart-written{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+.add-to-cart-trending{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.add-to-cart-trend1{
+
+}
